@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: "Rajdhani";
+	background-color: white;
+}
+nav {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 5%;
+	background-color: #8cc099;
+}
+
+nav .heading {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	padding: 8px 15px;
+	border-radius: 10px;
+	transition: 0.2s ease-in;
+}
+
+nav ul li a {
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover {
+	background-color: green;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+nav .sideMenuButton {
+	font-size: 30px;
+	font-weight: bolder;
+	cursor: pointer;
+	display: none;
+}
+
+/* responsive navbar css */
+@media screen and (max-width: 600px) {
+	nav .sideMenuButton {
+		display: flex;
+	}
+
+	nav .navbar {
+		display: none;
+	}
+
+	.sideNavigationBar {
+		display: block !important;
+	}
+}
+
+.sideNavigationBar {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0%;
+	background-color: green;
+	overflow-x: hidden;
+	transition: 0.3s ease-in;
+	padding-top: 60px;
+	display: none;
+}
+
+.sideNavigationBar a {
+	padding: 8px 8px 8px 40px;
+	display: block;
+	font-size: 25px;
+	font-weight: 500;
+	color: #d1d1d1;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.sideNavigationBar a button {
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: green;
+	font-size: 16px;
+	border-style: none;
+	font-weight: 700;
+}
+
+.sideNavigationBar a:hover {
+	color: white;
+}
+
+.sideNavigationBar .closeButton {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+
+
+
+
+.hero-contect{
+    text-align: center;
+	margin-top: 60px;
+}
+.hero-contect h2{
+    font-size: 35px;
+	margin:10px;
+	padding: 10px;
+}
+
+.about-content p{
+    font-size: 18px;
+	padding: 10px 0;
+	margin: 10px 0;
+	margin-left: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: darkslategray;
+}
+
+.blog-post{
+    border: 1px solid rgb(6, 5, 5);
+    padding: 20px;
+    margin: 20px;
+    
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#change{
+	margin-left: 10px;
+}
+#change_c{
+	margin-left: 20px;
+	padding: 20px;
+}
+
+#image{
+	width: 100px;
+	height: 100px;
+}
+.button {
+	margin-top: 12px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.button button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+	
+}
+
+.button button:hover {
+	background-color: #8cc099;
+}
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+	
+}
+
+button:hover {
+	background-color: #8cc099;
+}
+#to{
+	padding: 5px;
+}
+.hero .hero-contect button a:hover{
+    color: white;
+}
+
+#blog .blog-posts .blog-post button a:hover {
+	background-color: #8cc099;
+	color: white;
+}
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+	background-color: #8cc099; 
+	
+}
+
+button:hover {
+ color: white;
+}
+
+section div h2{
+	border-color: #8cc099;
+}
+
+#contact .contact content button a:hover{
+	color: #fff;
+}
